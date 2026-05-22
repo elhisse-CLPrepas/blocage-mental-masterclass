@@ -1,13 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Deep Performance</title>
-  <desc id="desc">Logo DP pour Deep Performance</desc>
-  <rect width="56" height="56" rx="10" fill="#0e6f67"/>
-  <path d="M15 15h15c8.1 0 13.8 5.4 13.8 13s-5.7 13-13.8 13H15V15Zm14.4 19.8c4.1 0 6.9-2.7 6.9-6.8s-2.8-6.8-6.9-6.8h-6.8v13.6h6.8Z" fill="#fff"/>
-  <path d="M47 15h-8.4v26H47V15Z" fill="#f0bd61"/>
-  <path d="M72 18.5h13.2c7.4 0 12.5 4.7 12.5 11.3S92.6 41 85.2 41H72V18.5Zm12.8 17.1c4.1 0 6.7-2.2 6.7-5.8s-2.6-5.9-6.7-5.9h-6.5v11.7h6.5Z" fill="#10221f"/>
-  <path d="M103.2 18.5h18v5.1h-11.7v3.5H120v4.8h-10.5v4h12.2V41h-18.5V18.5Z" fill="#10221f"/>
-  <path d="M126.7 18.5h18v5.1H133v3.5h10.5v4.8H133v4h12.2V41h-18.5V18.5Z" fill="#10221f"/>
-  <path d="M150.2 18.5h10.4c6 0 9.8 3.1 9.8 8.2s-3.8 8.3-9.8 8.3h-4.1v6h-6.3V18.5Zm10 11.4c2.4 0 3.8-1.2 3.8-3.2s-1.4-3.1-3.8-3.1h-3.7v6.3h3.7Z" fill="#10221f"/>
-  <path d="M72 47h98v2H72v-2Z" fill="#0e6f67"/>
-  <path d="M178 18.5h6.2V41H178V18.5Zm11.2 0h18.8v5.2h-12.5v4.2h11v5h-11V41h-6.3V18.5Z" fill="#0e6f67"/>
+  <desc id="desc">Logo rond violet Deep Performance avec monogramme DP</desc>
+  <defs>
+    <path id="topText" d="M83 256a173 173 0 0 1 346 0"/>
+    <path id="bottomText" d="M429 256a173 173 0 0 1-346 0"/>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="#4b4b4b"/>
+  <circle cx="256" cy="256" r="239" fill="#5b168a"/>
+  <circle cx="256" cy="256" r="232" fill="#62129b"/>
+  <circle cx="256" cy="256" r="169" fill="none" stroke="#d7c4e5" stroke-width="13"/>
+  <text fill="#d9c5e8" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="500" letter-spacing="12">
+    <textPath href="#topText" startOffset="50%" text-anchor="middle">DEEP PERFORMANCE</textPath>
+  </text>
+  <text fill="#d9c5e8" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="500" letter-spacing="12">
+    <textPath href="#bottomText" startOffset="50%" text-anchor="middle">DEEP PERFORMANCE</textPath>
+  </text>
+  <g fill="#dcc8eb">
+    <path d="M173 204c-45 0-76 31-76 75s31 75 76 75c28 0 49-12 62-31l-43-24c-5 8-12 13-22 13-18 0-30-14-30-33s12-33 30-33c11 0 19 5 24 14l43-25c-13-19-35-31-64-31Z"/>
+    <path d="M196 150h49v201h-49V150Z"/>
+    <path d="M239 224c15-14 36-21 62-21 53 0 90 31 90 75s-37 75-90 75c-25 0-46-7-61-20v-59c10 22 28 36 55 36 30 0 49-13 49-32s-19-32-49-32c-27 0-45 14-56 36v-58Z"/>
+    <path d="M271 205h49v158h-49V205Z"/>
+  </g>
 </svg>
