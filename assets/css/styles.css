@@ -110,7 +110,7 @@ a {
   margin: 0 auto;
   padding: 72px 0 48px;
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(300px, 0.88fr);
+  grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr);
   align-items: center;
   gap: 56px;
 }
@@ -182,10 +182,13 @@ a {
 }
 
 .hero-visual img {
-  width: min(430px, 100%);
-  max-height: 70svh;
+  width: 100%;
+  max-height: 72svh;
   object-fit: contain;
-  filter: drop-shadow(0 28px 42px rgba(16, 34, 31, 0.18));
+  background: #0d1020;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 
 .section,
@@ -199,6 +202,13 @@ a {
 .section-title {
   max-width: 820px;
   margin-bottom: 28px;
+}
+
+.section-title p:not(.tag) {
+  max-width: 720px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 1.08rem;
 }
 
 .section-title.centered {
@@ -297,7 +307,7 @@ a {
 
 .poster-feature {
   display: grid;
-  grid-template-columns: minmax(260px, 0.75fr) minmax(0, 1.25fr);
+  grid-template-columns: minmax(360px, 1.15fr) minmax(0, 0.85fr);
   gap: 28px;
   align-items: center;
   margin-bottom: 18px;
@@ -320,7 +330,7 @@ a {
 
 .poster-grid img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 10;
   object-fit: contain;
   background: white;
   border: 1px solid var(--line);
@@ -350,7 +360,18 @@ a {
   margin-top: 16px;
 }
 
-.video-grid video {
+.video-card {
+  min-width: 0;
+}
+
+.video-card h3 {
+  min-height: 2.8rem;
+  margin: 0 0 10px;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.video-card video {
   width: 100%;
   aspect-ratio: 9 / 16;
   object-fit: cover;
@@ -437,7 +458,7 @@ a {
   }
 
   .hero-visual img {
-    width: min(360px, 100%);
+    max-height: none;
     margin: 0 auto;
   }
 
@@ -453,7 +474,7 @@ a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .video-grid video {
+  .video-card video {
     aspect-ratio: 16 / 9;
     object-fit: contain;
   }
