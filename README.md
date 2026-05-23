@@ -10,10 +10,10 @@ Nom de dépôt public recommandé :
 blocage-mental-masterclass
 ```
 
-URL publique attendue :
+URL publique GitHub Pages :
 
 ```text
-https://deepperformance.site/
+https://elhisse-clprepas.github.io/blocage-mental-masterclass/
 ```
 
 ## Structure
@@ -31,27 +31,14 @@ https://deepperformance.site/
 
 ## Publication
 
-Dans GitHub, créer un dépôt public nommé `blocage-mental-masterclass`, pousser ce dossier comme racine du dépôt, activer GitHub Pages avec la source `GitHub Actions`, puis configurer le domaine personnalisé `deepperformance.site`.
+Dans GitHub, créer un dépôt public nommé `blocage-mental-masterclass`, pousser ce dossier comme racine du dépôt, puis activer GitHub Pages avec la source `GitHub Actions`.
 
-DNS requis pour le domaine racine :
-
-```text
-A     @     185.199.108.153
-A     @     185.199.109.153
-A     @     185.199.110.153
-A     @     185.199.111.153
-```
-
-Optionnel pour `www.deepperformance.site` :
-
-```text
-CNAME www   elhisse-clprepas.github.io
-```
+Si l’URL finale doit rester une page du site existant, par exemple `https://deepperformance.site/landing-page`, il faut intégrer cette landing page dans le site `deepperformance.site` ou créer une redirection depuis cette page vers l’URL GitHub Pages. GitHub Pages ne peut pas prendre seulement le chemin `/landing-page` sans faire pointer le domaine vers GitHub.
 
 ## Contrôle avant publication
 
 - Page principale : `index.html`.
-- URL publique : `https://deepperformance.site/`.
+- URL publique : `https://elhisse-clprepas.github.io/blocage-mental-masterclass/`.
 - SEO minimal : balise canonical, Open Graph, Twitter Card, `robots.txt` et `sitemap.xml`.
 - Vidéo principale : `assets/videos/temoignage-client-01.mp4`.
 - Affiche principale : `assets/images/affiches/affiche-masterclass-05.jpeg`.
