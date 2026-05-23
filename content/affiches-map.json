@@ -1,50 +1,47 @@
-﻿[
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-01.jpeg",
-        "bytes":  175136
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-02.jpeg",
-        "bytes":  16002
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-03.jpeg",
-        "bytes":  273068
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-04.jpeg",
-        "bytes":  378068
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-05.jpeg",
-        "bytes":  391336
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-06.jpeg",
-        "bytes":  27685
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-07.jpeg",
-        "bytes":  39324
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-08.jpeg",
-        "bytes":  317397
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-09.jpeg",
-        "bytes":  301866
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-10.jpeg",
-        "bytes":  298161
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-11.jpeg",
-        "bytes":  319380
-    },
-    {
-        "public_path":  "assets/images/affiches/affiche-masterclass-12.jpeg",
-        "bytes":  297438
-    }
+[
+  {
+    "order": 0,
+    "label": "REWIRE Semaine 1",
+    "public_path": "assets/images/affiches/affiche-masterclass-09.jpeg"
+  },
+  {
+    "order": 1,
+    "label": "1. Comprendre l'anatomie du blocage",
+    "public_path": "assets/images/affiches/affiche-masterclass-10.jpeg"
+  },
+  {
+    "order": 2,
+    "label": "2. L'iceberg de la programmation",
+    "public_path": "assets/images/affiches/affiche-masterclass-11.jpeg"
+  },
+  {
+    "order": 3,
+    "label": "3. Le protocole de liberation",
+    "public_path": "assets/images/affiches/affiche-masterclass-12.jpeg"
+  },
+  {
+    "order": 4,
+    "label": "4. La trajectoire de transformation - 90 jours",
+    "public_path": "assets/images/affiches/affiche-masterclass-08.jpeg"
+  },
+  {
+    "order": 5,
+    "label": "Affiche generale Rewire",
+    "public_path": "assets/images/affiches/affiche-masterclass-05.jpeg"
+  },
+  {
+    "order": 6,
+    "label": "Portrait Master Coach Boumrah",
+    "public_path": "assets/images/affiches/affiche-masterclass-03.jpeg"
+  },
+  {
+    "order": 7,
+    "label": "Presentation Deep Performance",
+    "public_path": "assets/images/affiches/affiche-masterclass-04.jpeg"
+  },
+  {
+    "order": 8,
+    "label": "Affiche verticale masterclass",
+    "public_path": "assets/images/affiches/affiche-masterclass-01.jpeg"
+  }
 ]
