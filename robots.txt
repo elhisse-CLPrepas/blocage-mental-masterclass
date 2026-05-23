@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elhisse-clprepas.github.io/blocage-mental-masterclass/sitemap.xml

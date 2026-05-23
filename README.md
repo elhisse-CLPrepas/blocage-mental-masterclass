@@ -32,3 +32,13 @@ https://elhisse-clprepas.github.io/blocage-mental-masterclass/
 ## Publication
 
 Dans GitHub, créer un dépôt public nommé `blocage-mental-masterclass`, pousser ce dossier comme racine du dépôt, puis activer GitHub Pages avec la source `GitHub Actions`.
+
+## Contrôle avant publication
+
+- Page principale : `index.html`.
+- URL publique : `https://elhisse-clprepas.github.io/blocage-mental-masterclass/`.
+- SEO minimal : balise canonical, Open Graph, Twitter Card, `robots.txt` et `sitemap.xml`.
+- Vidéo principale : `assets/videos/temoignage-client-01.mp4`.
+- Affiche principale : `assets/images/affiches/affiche-masterclass-05.jpeg`.
+
+Note : `assets/videos/masterclass-introduction.mp4` dépasse légèrement la recommandation GitHub de 50 Mo. La page reste publiable, mais une compression vidéo améliorera la vitesse de chargement.
